@@ -14,10 +14,10 @@ const btnPrev = document.querySelector(".hero-arrow-left");
 const btnNext = document.querySelector(".hero-arrow-right");
 
 const slides = [
-    "../assets/images/hero-01.jpg",
-    "../assets/images/hero-02.jpg",
-    "../assets/images/hero-03.jpg",
-    "../assets/images/hero-04.jpg"
+  "./assets/images/hero-01.jpg",
+  "./assets/images/hero-02.jpg",
+  "./assets/images/hero-03.jpg",
+  "./assets/images/hero-04.jpg"
 ];
 
 let currentSlide = 0;
@@ -86,3 +86,4 @@ filterButtons.forEach(button => {
 
     });
 });
+
