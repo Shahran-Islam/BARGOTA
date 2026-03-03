@@ -17,12 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnPrev = document.querySelector(".hero-arrow-left");
     const btnNext = document.querySelector(".hero-arrow-right");
 
-    const slides = [
-        "./assets/images/hero-01.jpg",
-        "./assets/images/hero-02.jpg",
-        "./assets/images/hero-03.jpg",
-        "./assets/images/hero-04.jpg"
-    ];
+   const slides = [
+  "/BARGOTA/assets/images/hero-01.jpg",
+  "/BARGOTA/assets/images/hero-02.jpg",
+  "/BARGOTA/assets/images/hero-03.jpg",
+  "/BARGOTA/assets/images/hero-04.jpg"
+];
 
     let currentSlide = 0;
     let showingA = true;
@@ -97,3 +97,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+
